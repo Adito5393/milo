@@ -3,7 +3,7 @@ module org.eclipse.milo.opcua.sdk.dictionaryreader {
     requires io.netty.buffer;
     requires java.xml.bind;
     requires org.eclipse.milo.opcua.sdk.core;
-    requires slf4j.api;
+    requires org.slf4j;
 
     requires transitive org.eclipse.milo.opcua.binaryschema.parser;
     requires transitive org.eclipse.milo.opcua.sdk.client;

@@ -1,7 +1,7 @@
 module org.eclipse.milo.opcua.stack.client {
     requires com.google.common;
     requires io.netty.handler;
-    requires slf4j.api;
+    requires org.slf4j;
     requires strict.machine;
 
     requires transitive io.netty.buffer;

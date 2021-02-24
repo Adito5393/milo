@@ -1,6 +1,6 @@
 module org.eclipse.milo.opcua.binaryschema.parser {
     requires java.xml;
-    requires slf4j.api;
+    requires org.slf4j;
 
     requires transitive com.google.common;
     requires transitive java.xml.bind;

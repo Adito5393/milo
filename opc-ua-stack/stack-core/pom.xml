@@ -15,6 +15,12 @@
     </properties>
 
     <dependencies>
+<!--        jakarta.activation Required by java 11 compiling module-info.java-->
+        <dependency>
+            <groupId>com.sun.activation</groupId>
+            <artifactId>jakarta.activation</artifactId>
+            <version>1.2.2</version>
+        </dependency>
         <dependency>
             <groupId>org.bouncycastle</groupId>
             <artifactId>bcprov-jdk15on</artifactId>

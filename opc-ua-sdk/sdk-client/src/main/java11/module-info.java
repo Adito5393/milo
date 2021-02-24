@@ -1,6 +1,6 @@
 module org.eclipse.milo.opcua.sdk.client {
     requires io.netty.buffer;
-    requires slf4j.api;
+    requires org.slf4j;
     requires strict.machine;
 
     requires transitive com.google.common;

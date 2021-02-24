@@ -3,7 +3,7 @@ module org.eclipse.milo.opcua.sdk.server {
     requires java.management;
     requires java.xml;
     requires jdk.management;
-    requires slf4j.api;
+    requires org.slf4j;
 
     requires transitive com.google.common;
     requires transitive io.netty.common;

@@ -1,5 +1,5 @@
 module org.eclipse.milo.opcua.sdk.core {
-    requires slf4j.api;
+    requires org.slf4j;
 
     requires transitive com.google.common;
     requires transitive jsr305;

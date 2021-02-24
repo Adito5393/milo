@@ -298,13 +298,13 @@
                             <goal>compile</goal>
                         </goals>
                         <configuration>
-                            <release>9</release>
+                            <release>11</release>
                             <compileSourceRoots>
-                                <compileSourceRoot>${project.basedir}/src/main/java9</compileSourceRoot>
+                                <compileSourceRoot>${project.basedir}/src/main/java11</compileSourceRoot>
                             </compileSourceRoots>
 <!--                            https://github.com/apache/maven-compiler-plugin/blob/master/src/it/multirelease-patterns/singleproject-runtime/pom.xml-->
 <!--                            <multiReleaseOutput>true</multiReleaseOutput>-->
-                            <outputDirectory>${project.build.outputDirectory}/META-INF/versions/9</outputDirectory>
+                            <outputDirectory>${project.build.outputDirectory}/META-INF/versions/11</outputDirectory>
                             <compilerArgs>
                                 <arg>--patch-module</arg>
                                 <arg>${module-name}=${project.build.outputDirectory}</arg>
