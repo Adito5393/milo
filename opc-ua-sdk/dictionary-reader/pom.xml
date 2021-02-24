@@ -5,13 +5,13 @@
     <parent>
         <groupId>org.eclipse.milo</groupId>
         <artifactId>opc-ua-sdk</artifactId>
-        <version>0.6.0-SNAPSHOT</version>
+        <version>0.6.500-SNAPSHOT</version>
     </parent>
 
     <artifactId>dictionary-reader</artifactId>
 
     <properties>
-        <javaModuleName>org.eclipse.milo.opcua.sdk.dictionaryreader</javaModuleName>
+        <module-name>org.eclipse.milo.opcua.sdk.dictionaryreader</module-name>
     </properties>
 
     <dependencies>

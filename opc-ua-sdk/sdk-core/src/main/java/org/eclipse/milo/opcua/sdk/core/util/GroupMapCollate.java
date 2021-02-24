@@ -8,7 +8,7 @@
  * SPDX-License-Identifier: EPL-2.0
  */
 
-package org.eclipse.milo.opcua.sdk.server.util;
+package org.eclipse.milo.opcua.sdk.core.util;
 
 import java.util.ArrayList;
 import java.util.List;

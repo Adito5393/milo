@@ -5,20 +5,20 @@
     <parent>
         <groupId>org.eclipse.milo</groupId>
         <artifactId>opc-ua-stack</artifactId>
-        <version>0.6.0-SNAPSHOT</version>
+        <version>0.6.500-SNAPSHOT</version>
     </parent>
 
     <artifactId>bsd-parser-gson</artifactId>
 
     <properties>
-        <javaModuleName>org.eclipse.milo.opcua.binaryschema.gson</javaModuleName>
+        <module-name>org.eclipse.milo.opcua.binaryschema.gson</module-name>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.eclipse.milo</groupId>
             <artifactId>bsd-parser</artifactId>
-            <version>0.6.0-SNAPSHOT</version>
+            <version>0.6.500-SNAPSHOT</version>
         </dependency>
 
         <dependency>
@@ -42,7 +42,7 @@
         <dependency>
             <groupId>org.eclipse.milo</groupId>
             <artifactId>bsd-parser</artifactId>
-            <version>0.6.0-SNAPSHOT</version>
+            <version>0.6.500-SNAPSHOT</version>
             <type>test-jar</type>
             <scope>test</scope>
         </dependency>

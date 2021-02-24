@@ -5,13 +5,13 @@
     <parent>
         <groupId>org.eclipse.milo</groupId>
         <artifactId>opc-ua-sdk</artifactId>
-        <version>0.6.0-SNAPSHOT</version>
+        <version>0.6.500-SNAPSHOT</version>
     </parent>
 
     <artifactId>sdk-client</artifactId>
 
     <properties>
-        <javaModuleName>org.eclipse.milo.opcua.sdk.client</javaModuleName>
+        <module-name>org.eclipse.milo.opcua.sdk.client</module-name>
     </properties>
 
     <dependencies>
